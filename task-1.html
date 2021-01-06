@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<style>
+.header{
+height:4px;
+background-color:black;
+margin-bottom:10px;
+}
+
+body{
+margin-left:350px;
+width:600px;
+}
+</style>
+
+<body>
+<div class="header"></div>
+<nav>
+<a href="https://www.lasya404/home" class="active" style="color:darkblue">Home</a> |
+<a href="https://www.lasya404/contact">Contact</a> |
+<a href="https://www.lasya404/about">About</a> |
+<a href="https://www.lasya404/projects">Projects</a>
+</nav><br><br>
+
+<h1>Student Registration Form</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" value="Lasya"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" value="Sree"><br><br>
+  <label for="dob">DOB:</label><br>
+  <input type="date" id="dob" name="dob" placeholder="dd-mm-yyyy"><br><br><br>
+  <label for="dname">Father's Name:</label><br>
+  <input type="text" id="dname" value=""><br><br>
+  <label for="document">Document:</label><br>
+  <input type="radio" id="adhaar" name="document" value="Adhaar">
+  <label for="male">Adhaar</label><br>
+  <input type="radio" id="dl" name="document" value="DrivingLicense">
+  <label for="female">Driving License</label><br>
+  <input type="radio" id="other" name="document" value="other">
+  <label for="other">Other</label><br><br>
+  <label for="gender">Gender:</label> 
+
+<select name="male" id="male">
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+</select><br><br>
+  <label for="description">Description:</label><br>
+
+<textarea id="des" name="description" rows="4" cols="50"></textarea><br><br>
+<input type="checkbox" id="confirm" name="confirm" value="confirm">
+<label for="checkbox"> Confirm</label><br>
+<button type="submit" form="form1" value="Submit">Submit</button><br><br><br><br>
+</form> 
+
+
+<footer>Made By Lasya
+<i class="fas fa-address-book"></i>
+<i class="fas fa-envelope"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+</footer>
+</body>
+</html>
